@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu texto con sombras.ggsk
-// Generated 2026-03-09T17:36:51
+// Generated 2026-03-09T17:43:12
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -349,13 +349,13 @@ function pano2vrSkin(player,base) {
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
 				}
 				else if (me._planta.ggCurrentLogicStateScaling == 1) {
-					me._planta.ggParameter.sx = 0.15;
-					me._planta.ggParameter.sy = 0.15;
+					me._planta.ggParameter.sx = 0.3;
+					me._planta.ggParameter.sy = 0.3;
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
 				}
 				else if (me._planta.ggCurrentLogicStateScaling == 2) {
-					me._planta.ggParameter.sx = 0.15;
-					me._planta.ggParameter.sy = 0.15;
+					me._planta.ggParameter.sx = 0.3;
+					me._planta.ggParameter.sy = 0.3;
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
 				}
 				else {
@@ -579,8 +579,8 @@ function pano2vrSkin(player,base) {
 				me._clone_sala.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._clone_sala.style[domTransition]='' + cssPrefix + 'transform 0s';
 				if (me._clone_sala.ggCurrentLogicStateScaling == 0) {
-					me._clone_sala.ggParameter.sx = 0.4;
-					me._clone_sala.ggParameter.sy = 0.4;
+					me._clone_sala.ggParameter.sx = 0.6;
+					me._clone_sala.ggParameter.sy = 0.6;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 1) {
@@ -594,8 +594,8 @@ function pano2vrSkin(player,base) {
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 3) {
-					me._clone_sala.ggParameter.sx = 0.4;
-					me._clone_sala.ggParameter.sy = 0.4;
+					me._clone_sala.ggParameter.sx = 0.6;
+					me._clone_sala.ggParameter.sy = 0.6;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else {
@@ -646,7 +646,7 @@ function pano2vrSkin(player,base) {
 		hs+='cursor : pointer;';
 		hs+='height : 20px;';
 		hs+='position : absolute;';
-		hs+='right : 127px;';
+		hs+='right : 70px;';
 		hs+='top : 42px;';
 		hs+='visibility : inherit;';
 		hs+='width : 100px;';
@@ -1631,9 +1631,9 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 18px;';
+		hs+='height : 25px;';
 		hs+='position : absolute;';
-		hs+='right : 50px;';
+		hs+='right : 0px;';
 		hs+='top : 30px;';
 		hs+='visibility : inherit;';
 		hs+='width : 165px;';
@@ -1646,7 +1646,7 @@ function pano2vrSkin(player,base) {
 		hs+='right: 0px;';
 		hs+='top:  0px;';
 		hs+='width: 165px;';
-		hs+='height: 18px;';
+		hs+='height: 25px;';
 		hs+='background: #ffffff;';
 		hs+='background: rgba(255,255,255,0);';
 		hs+='border: 0px solid #ffffff;';
