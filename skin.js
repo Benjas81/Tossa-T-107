@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu imagenes.ggsk
-// Generated 2026-03-09T13:32:40
+// Generated 2026-03-09T13:43:51
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
