@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu texto con sombras.ggsk
-// Generated 2026-03-09T17:43:12
+// Generated 2026-03-09T17:51:56
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -342,7 +342,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._planta.ggCurrentLogicStateScaling != newLogicStateScaling) {
 				me._planta.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._planta.style[domTransition]='' + cssPrefix + 'transform 0s';
+				me._planta.style[domTransition]='' + cssPrefix + 'transform 1000ms ease 0ms';
 				if (me._planta.ggCurrentLogicStateScaling == 0) {
 					me._planta.ggParameter.sx = 0.3;
 					me._planta.ggParameter.sy = 0.3;
@@ -533,7 +533,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='right : 25px;';
-		hs+='top : 75px;';
+		hs+='top : 60px;';
 		hs+='visibility : inherit;';
 		hs+='width : 150px;';
 		hs+='pointer-events:none;';
@@ -577,15 +577,15 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._clone_sala.ggCurrentLogicStateScaling != newLogicStateScaling) {
 				me._clone_sala.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._clone_sala.style[domTransition]='' + cssPrefix + 'transform 0s';
+				me._clone_sala.style[domTransition]='' + cssPrefix + 'transform 1000ms ease 0ms';
 				if (me._clone_sala.ggCurrentLogicStateScaling == 0) {
 					me._clone_sala.ggParameter.sx = 0.6;
 					me._clone_sala.ggParameter.sy = 0.6;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 1) {
-					me._clone_sala.ggParameter.sx = 0.6;
-					me._clone_sala.ggParameter.sy = 0.6;
+					me._clone_sala.ggParameter.sx = 0.8;
+					me._clone_sala.ggParameter.sy = 0.8;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 2) {
@@ -647,7 +647,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 20px;';
 		hs+='position : absolute;';
 		hs+='right : 70px;';
-		hs+='top : 42px;';
+		hs+='top : 25px;';
 		hs+='visibility : inherit;';
 		hs+='width : 100px;';
 		hs+='pointer-events:auto;';
