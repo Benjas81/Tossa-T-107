@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu texto con sombras.ggsk
-// Generated 2026-03-09T17:51:56
+// Generated 2026-03-09T17:57:24
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -549,13 +549,13 @@ function pano2vrSkin(player,base) {
 		me._clone_sala.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
-				((player.getIsMobile() == true))
+				((player.getViewerSize().width < 600))
 			)
 			{
 				newLogicStateScaling = 0;
 			}
 			else if (
-				((player.getViewerSize().width < 600))
+				((player.getIsMobile() == true))
 			)
 			{
 				newLogicStateScaling = 1;
@@ -579,13 +579,13 @@ function pano2vrSkin(player,base) {
 				me._clone_sala.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._clone_sala.style[domTransition]='' + cssPrefix + 'transform 1000ms ease 0ms';
 				if (me._clone_sala.ggCurrentLogicStateScaling == 0) {
-					me._clone_sala.ggParameter.sx = 0.6;
-					me._clone_sala.ggParameter.sy = 0.6;
+					me._clone_sala.ggParameter.sx = 0.8;
+					me._clone_sala.ggParameter.sy = 0.8;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 1) {
-					me._clone_sala.ggParameter.sx = 0.8;
-					me._clone_sala.ggParameter.sy = 0.8;
+					me._clone_sala.ggParameter.sx = 0.6;
+					me._clone_sala.ggParameter.sy = 0.6;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 2) {
