@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu imagenes.ggsk
-// Generated 2026-03-09T13:27:43
+// Generated 2026-03-09T13:32:40
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -332,16 +332,10 @@ function pano2vrSkin(player,base) {
 				newLogicStateScaling = 1;
 			}
 			else if (
-				((player.getViewerSize().height <= 750))
-			)
-			{
-				newLogicStateScaling = 2;
-			}
-			else if (
 				((player.getPanN() == 90))
 			)
 			{
-				newLogicStateScaling = 3;
+				newLogicStateScaling = 2;
 			}
 			else {
 				newLogicStateScaling = -1;
@@ -360,11 +354,6 @@ function pano2vrSkin(player,base) {
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
 				}
 				else if (me._planta.ggCurrentLogicStateScaling == 2) {
-					me._planta.ggParameter.sx = 0.3;
-					me._planta.ggParameter.sy = 0.3;
-					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
-				}
-				else if (me._planta.ggCurrentLogicStateScaling == 3) {
 					me._planta.ggParameter.sx = 0.3;
 					me._planta.ggParameter.sy = 0.3;
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
@@ -577,16 +566,10 @@ function pano2vrSkin(player,base) {
 				newLogicStateScaling = 2;
 			}
 			else if (
-				((player.getViewerSize().height <= 750))
-			)
-			{
-				newLogicStateScaling = 3;
-			}
-			else if (
 				((player.getPanN() == 90))
 			)
 			{
-				newLogicStateScaling = 4;
+				newLogicStateScaling = 3;
 			}
 			else {
 				newLogicStateScaling = -1;
@@ -610,13 +593,8 @@ function pano2vrSkin(player,base) {
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 3) {
-					me._clone_sala.ggParameter.sx = 0.8;
-					me._clone_sala.ggParameter.sy = 0.8;
-					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
-				}
-				else if (me._clone_sala.ggCurrentLogicStateScaling == 4) {
-					me._clone_sala.ggParameter.sx = 0.8;
-					me._clone_sala.ggParameter.sy = 0.8;
+					me._clone_sala.ggParameter.sx = 0.6;
+					me._clone_sala.ggParameter.sy = 0.6;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else {
