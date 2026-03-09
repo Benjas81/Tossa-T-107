@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu imagenes.ggsk
-// Generated 2026-03-09T13:21:38
+// Generated 2026-03-09T13:27:43
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -337,6 +337,12 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 2;
 			}
+			else if (
+				((player.getPanN() == 90))
+			)
+			{
+				newLogicStateScaling = 3;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -354,6 +360,11 @@ function pano2vrSkin(player,base) {
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
 				}
 				else if (me._planta.ggCurrentLogicStateScaling == 2) {
+					me._planta.ggParameter.sx = 0.3;
+					me._planta.ggParameter.sy = 0.3;
+					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
+				}
+				else if (me._planta.ggCurrentLogicStateScaling == 3) {
 					me._planta.ggParameter.sx = 0.3;
 					me._planta.ggParameter.sy = 0.3;
 					me._planta.style[domTransform]=parameterToTransform(me._planta.ggParameter);
@@ -571,6 +582,12 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 3;
 			}
+			else if (
+				((player.getPanN() == 90))
+			)
+			{
+				newLogicStateScaling = 4;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -593,6 +610,11 @@ function pano2vrSkin(player,base) {
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
 				}
 				else if (me._clone_sala.ggCurrentLogicStateScaling == 3) {
+					me._clone_sala.ggParameter.sx = 0.8;
+					me._clone_sala.ggParameter.sy = 0.8;
+					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
+				}
+				else if (me._clone_sala.ggCurrentLogicStateScaling == 4) {
 					me._clone_sala.ggParameter.sx = 0.8;
 					me._clone_sala.ggParameter.sy = 0.8;
 					me._clone_sala.style[domTransform]=parameterToTransform(me._clone_sala.ggParameter);
@@ -1735,6 +1757,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('fullscreenexit', function(args) { me._clone_sala.logicBlock_scaling(); });
 	player.addListener('changenode', function(args) { me._plantas.logicBlock_visible();me._plantas.logicBlock_alpha(); });
 	player.addListener('configloaded', function(args) { me._planta.logicBlock_scaling();me._clone_sala.logicBlock_scaling(); });
+	player.addListener('positionchanged', function(args) { me._planta.logicBlock_scaling();me._clone_sala.logicBlock_scaling(); });
 	player.addListener('varchanged_ht_ani', function(args) { me._plantas.logicBlock_visible();me._plantas.logicBlock_alpha(); });
 	player.addListener('varchanged_var1', function(args) { me._plantas.logicBlock_visible(); });
 	player.addListener('mouseover', function(args) { me._clone_sala.callChildLogicBlocks_mouseover(); });
