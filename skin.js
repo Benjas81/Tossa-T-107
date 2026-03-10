@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.2/17873
 // Filename: Tossa T-107 Interior menu texto con sombras.ggsk
-// Generated 2026-03-09T17:57:24
+// Generated 2026-03-09T18:06:01
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, true);
@@ -513,14 +513,14 @@ function pano2vrSkin(player,base) {
 		el.ggFilter = [];
 		el.ggTagTable = [
 			{tag:"sala",title:"Sala"},
+			{tag:"12bano",title:"Ba\xf1o PB"},
 			{tag:"comedor",title:"Comedor"},
 			{tag:"patio",title:"Patio"},
-			{tag:"12bano",title:"Ba\xf1o PB"},
 			{tag:"distribuidor",title:"Distribuidor"},
 			{tag:"Rec02",title:"Recamara 02"},
 			{tag:"Rec03",title:"Recamara 03"},
-			{tag:"Recppal",title:"Recamara Ppal"},
 			{tag:"baoPA",title:"Ba\xf1o PA"},
+			{tag:"Recppal",title:"Recamara Ppal"},
 			{tag:"Baorecppal",title:"Ba\xf1o Rec "},
 			];
 		el.ggId="clone sala";

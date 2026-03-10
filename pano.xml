@@ -23,7 +23,7 @@
       <hotspot url="{node4}" skinid="ht_node" target="" description="" pan="-140.44" title="1/2 Baño" id="1/2 Baño" tilt="-17.53"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -51,7 +51,7 @@
       <hotspot url="{node3}" skinid="ht_node" target="" description="" pan="-344.06" title="Patio" id="Patio" tilt="-11.3"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -78,7 +78,7 @@
       <hotspot url="{node5}" skinid="ht_node" target="" description="" pan="-160" title="Distribuidor" id="Distribuidor" tilt="-0.36"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -103,7 +103,7 @@
       <hotspot url="{node1}" skinid="ht_node" target="" description="" pan="-295.04" title="Sala" id="Sala" tilt="-13.03"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -132,7 +132,7 @@
       <hotspot url="{node6}" skinid="ht_node" target="" description="" pan="-210.69" title="Recamara Ppal" id="Recamara Ppal" tilt="-11.77"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -160,7 +160,7 @@
       <hotspot url="{node10}" skinid="ht_node" target="" description="" pan="-251.85" title="Baño Rec Ppal" id="Baño Recamara Ppal" tilt="-11.87"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -186,7 +186,7 @@
       <hotspot url="{node5}" skinid="ht_node" target="" description="" pan="-176.41" title="Distribuidor" id="Distribuidor" tilt="-18.4"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -211,7 +211,7 @@
       <hotspot url="{node5}" skinid="ht_node" target="" description="" pan="-180.05" title="Distribuidor" id="Distribuidor" tilt="-22.59"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -238,7 +238,7 @@
       <hotspot url="{node7}" skinid="ht_node" target="" description="" pan="-51.27" title="Recamara 02" id="Recamara 02" tilt="-8.98"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
@@ -263,7 +263,7 @@
       <hotspot url="{node6}" skinid="ht_node" target="" description="" pan="-6.56" title="Recamara Ppal" id="Recamara Ppal" tilt="-25.3"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="2" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
+    <transition softedge="0" zoomfov="20" zoomoutpause="1" blendtime="1.5" type="crossdissolve" zoomout="0" zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000"/>
     <flyintransition speed="2.00" enabled="1"/>
     <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
     <control simulatemass="1" contextprojections="0" lockedmouse="0" invertcontrol="1" contextfullscreen="1" rubberband="0" invertwheel="0" speedwheel="1" sensitivity="8" lockedwheel="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" lockedkeyboardzoom="0"/>
